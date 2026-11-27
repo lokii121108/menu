@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f0ff">
+  <meta name="description" content="Warm Table serves South Indian comfort food inspired by the kitchens and traditions of the region.">
+  <title>Warm Table | South Indian comfort food</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="menu-data.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#home" aria-label="Warm Table home">
+        <span class="brand-mark" aria-hidden="true">w</span>
+        <span>Warm <strong>Table</strong><small>SOUTH INDIAN COMFORT</small></span>
+      </a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="#home">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="cart-link" id="open-cart" type="button" aria-label="Your cart, 0 items">
+        <span aria-hidden="true">♧</span> <span class="cart-label">Cart</span>
+        <span class="cart-count" aria-live="polite" aria-atomic="true">0</span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero section-wrap" id="home" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span aria-hidden="true">✦</span> SOUTH INDIAN COMFORT, FROM OUR KITCHEN</p>
+        <h1 id="hero-title">Rooted in the south.<br><em>Served with warmth.</em></h1>
+        <p class="hero-intro">Crisp dosas, slow-simmered curries and coconut-rich comforts, inspired by the kitchens and seasons of South India.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#menu">Explore the menu <span aria-hidden="true">→</span></a>
+          <a class="text-link" href="#about">Our roots <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="hero-note"><span class="note-stars" aria-hidden="true">★★★★★</span><span>Made fresh. Shared warmly.</span></div>
+      </div>
+      <div class="hero-art">
+        <span class="art-sun" aria-hidden="true"></span>
+        <img src="assets/photos/hero-feast-refresh.jpg" alt="A South Indian rice meal with fish fry and curries served on a banana leaf">
+        <span class="art-caption"><span aria-hidden="true">♡</span> A little taste of home</span>
+      </div>
+      <a class="scroll-cue" href="#menu"><span aria-hidden="true">↓</span> SCROLL FOR THE GOOD STUFF</a>
+    </section>
+
+    <section class="menu-section section-wrap" id="menu" aria-labelledby="menu-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">FROM OUR KITCHEN</p>
+          <h2 id="menu-title">South Indian favourites, <em>made with heart.</em></h2>
+        </div>
+        <p class="section-aside">Explore bold Andhra flavours and Karnataka comfort food, alongside tiffin, curries, and sweets.</p>
+      </div>
+      <div class="menu-tools">
+        <div class="filter-list" role="group" aria-label="Filter menu by category">
+          <button class="filter-button is-active" type="button" data-filter="all" aria-pressed="true">All dishes</button>
+          <button class="filter-button" type="button" data-filter="veg" aria-pressed="false">Veg</button>
+          <button class="filter-button" type="button" data-filter="nonveg" aria-pressed="false">Non-Veg</button>
+          <button class="filter-button" type="button" data-filter="desserts" aria-pressed="false">Desserts</button>
+        </div>
+        <p class="menu-hint">Good things are best shared <span aria-hidden="true">♡</span></p>
+      </div>
+      <div class="menu-grid" id="menu-grid" aria-live="polite" aria-busy="false"></div>
+      <p class="menu-footnote">Prices are in Indian rupees (₹). Please let us know about any dietary needs.</p>
+    </section>
+
+    <section class="story-section" id="about" aria-labelledby="about-title">
+      <div class="story-inner section-wrap">
+        <div class="story-art">
+          <img src="assets/photos/filter-coffee-refresh.jpg" alt="Coffee brewing through a glass dripper">
+          <span class="story-stamp" aria-hidden="true">ROOTED<br>IN THE<br>SOUTH<br>♡</span>
+        </div>
+        <div class="story-copy">
+          <p class="eyebrow">A SEAT AT OUR TABLE</p>
+          <h2 id="about-title">A little taste of home, <em>wherever you are.</em></h2>
+          <p>Warm Table celebrates South India's regional kitchens—from Andhra's lively spice blends and Karnataka's rice-and-lentil comforts to Kerala stews, Tamil curries, and festive banana-leaf meals. We use toasted spices, seasonal produce, and recipes that feel like home.</p>
+          <p>Settle in for a hearty meal, then linger over a fresh cup of coffee. There is always room for one more at our table.</p>
+          <a class="text-link" href="#contact">Find us in Chennai <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section section-wrap" id="contact" aria-labelledby="contact-title">
+      <div class="contact-copy">
+        <p class="eyebrow">LET'S MAKE IT A MEAL</p>
+        <h2 id="contact-title">Come hungry.<br><em>Leave smiling.</em></h2>
+        <p>Planning a visit or have a question about the menu? Send us a note. This sample restaurant form is a demo, so it will not send or save anything.</p>
+        <div class="contact-details">
+          <p><span aria-hidden="true">⌖</span> Mylapore, Chennai, Tamil Nadu 600004</p>
+          <p><span aria-hidden="true">◷</span> Every day, 7 am–10 pm</p>
+          <p><span aria-hidden="true">☎</span> <a href="tel:+914440001024">+91 44 4000 1024</a></p>
+          <p><span aria-hidden="true">✉</span> <a href="mailto:hello@warmtable.example">hello@warmtable.example</a></p>
+        </div>
+      </div>
+      <form class="contact-form" id="contact-form">
+        <p class="form-title">A note for our kitchen</p>
+        <p class="form-intro">Fields marked <span aria-hidden="true">*</span> are required.</p>
+        <div class="field-row">
+          <label for="guest-name">Your name <span aria-hidden="true">*</span>
+            <input id="guest-name" name="name" type="text" autocomplete="name" placeholder="e.g. Jamie Lee" required>
+          </label>
+          <label for="guest-email">Email address <span aria-hidden="true">*</span>
+            <input id="guest-email" name="email" type="email" autocomplete="email" placeholder="you@example.com" required>
+          </label>
+        </div>
+        <label for="guest-note">What’s on your mind? <span aria-hidden="true">*</span>
+          <textarea id="guest-note" name="message" rows="4" placeholder="Tell us a little something..." required></textarea>
+        </label>
+        <button class="button button-primary form-submit" type="submit">Send a demo note <span aria-hidden="true">→</span></button>
+        <p class="form-disclaimer">Demo only — this form does not place an order or send your information.</p>
+        <p class="form-feedback" id="form-feedback" role="status" aria-live="polite" hidden></p>
+      </form>
+    </section>
+  </main>
+
+  <dialog class="site-dialog" id="cart-dialog" aria-labelledby="cart-title">
+    <div class="dialog-card cart-card">
+      <div class="dialog-heading">
+        <div>
+          <p class="eyebrow">YOUR ORDER</p>
+          <h2 id="cart-title">Your cart</h2>
+        </div>
+        <button class="dialog-close" type="button" data-close-dialog aria-label="Close cart">×</button>
+      </div>
+      <p class="dialog-lead" id="cart-empty">Your cart is empty. Add a favourite from the menu.</p>
+      <div class="cart-lines" id="cart-lines" aria-live="polite"></div>
+      <p class="dialog-status" id="cart-status" role="status" aria-live="polite"></p>
+      <div class="cart-total"><span>Subtotal</span><strong id="cart-subtotal">₹0</strong></div>
+      <p class="checkout-disclaimer">Delivery charges, if any, are confirmed by the restaurant before payment.</p>
+      <button class="button button-primary dialog-action" id="continue-checkout" type="button">Continue to checkout</button>
+    </div>
+  </dialog>
+
+  <dialog class="site-dialog" id="checkout-dialog" aria-labelledby="checkout-title">
+    <div class="dialog-card">
+      <div class="dialog-heading">
+        <div>
+          <p class="eyebrow">SECURE CHECKOUT</p>
+          <h2 id="checkout-title">Delivery details</h2>
+        </div>
+        <button class="dialog-close" type="button" data-close-dialog aria-label="Close checkout">×</button>
+      </div>
+      <form class="checkout-form" id="checkout-form">
+        <label for="checkout-name">Your name *
+          <input id="checkout-name" name="name" type="text" autocomplete="name" maxlength="80" required>
+        </label>
+        <label for="checkout-phone">Phone number *
+          <input id="checkout-phone" name="phone" type="tel" autocomplete="tel" pattern="[0-9+() -]{8,20}" maxlength="20" required>
+        </label>
+        <label for="checkout-address">Delivery address *
+          <textarea id="checkout-address" name="address" rows="3" maxlength="350" autocomplete="street-address" required></textarea>
+        </label>
+        <div class="cart-total checkout-total"><span>Order total</span><strong id="checkout-total">₹0</strong></div>
+        <p class="checkout-disclaimer">Payment is handled by Razorpay Checkout. This site never collects or stores card details.</p>
+        <p class="dialog-status" id="checkout-status" role="status" aria-live="polite">Checking payment setup…</p>
+        <button class="button button-primary dialog-action" id="pay-now" type="submit" disabled>Pay securely</button>
+      </form>
+    </div>
+  </dialog>
+
+  <dialog class="site-dialog" id="payment-success-dialog" aria-labelledby="payment-success-title">
+    <div class="dialog-card">
+      <div class="dialog-heading">
+        <div>
+          <p class="eyebrow">PAYMENT CONFIRMED</p>
+          <h2 id="payment-success-title">Thank you!</h2>
+        </div>
+        <button class="dialog-close" type="button" data-close-dialog aria-label="Close confirmation">×</button>
+      </div>
+      <p class="dialog-lead">Your payment was verified. The restaurant will follow up about your order.</p>
+      <p class="order-reference">Order reference: <strong id="payment-order-reference"></strong></p>
+      <button class="button button-primary dialog-action" type="button" data-close-dialog>Done</button>
+    </div>
+  </dialog>
+
+  <dialog class="site-dialog" id="chat-dialog" aria-labelledby="chat-title">
+    <div class="dialog-card">
+      <div class="dialog-heading">
+        <div>
+          <p class="eyebrow">WARM TABLE SUPPORT</p>
+          <h2 id="chat-title">Chat with us</h2>
+        </div>
+        <button class="dialog-close" type="button" data-close-dialog aria-label="Close chat information">×</button>
+      </div>
+      <p class="dialog-lead" id="chat-status">Connecting to live support…</p>
+      <button class="button button-primary dialog-action" id="open-live-chat" type="button" hidden>Open live chat</button>
+    </div>
+  </dialog>
+
+  <button class="chat-launcher" id="chat-launcher" type="button" aria-label="Open live support chat">Chat with us</button>
+
+  <footer class="site-footer">
+    <div class="footer-inner section-wrap">
+      <a class="brand footer-brand" href="#home">
+        <span class="brand-mark" aria-hidden="true">w</span>
+        <span>Warm <strong>Table</strong><small>SOUTH INDIAN COMFORT</small></span>
+      </a>
+      <p>Made with a full heart in Chennai <span aria-hidden="true">♡</span> © <span id="current-year">2026</span> Warm Table</p>
+      <a class="back-to-top" href="#home">Back to top ↑</a>
+    </div>
+  </footer>
+</body>
+</html>
